@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<TextView-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@android:id/text1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingLeft="6dip"-->
+    <!--android:minHeight="?android:attr/listPreferredItemHeight">-->
+<!--</TextView>-->
+
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:padding="15dp"
+    android:textEditPasteWindowLayout="@color/colorPrimaryDark"
+    android:textSize="18dp"
+    android:id="@+id/list_item">
+
+</CheckedTextView>
